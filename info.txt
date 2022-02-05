@@ -1,0 +1,5 @@
+sass -w assets/sass:assets/css/
+
+assets/sass/libs/_vars.scss
+assets/sass/components/_icon.scss
+assets/sass/components/_wrapper.scss
