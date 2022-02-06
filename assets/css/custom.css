@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "ferro_rossoregular";
+  src: url("../webfonts/ferrorosso.woff2") format("woff2"),
+    url("../webfonts/ferrorosso.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#brand {
+  font-family: "ferro_rossoregular" !important;
+}
