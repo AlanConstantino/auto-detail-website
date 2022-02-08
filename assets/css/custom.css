@@ -1,3 +1,17 @@
+/* 
+Possible fonts for word "Garage"
+- https://fonts.google.com/specimen/Lobster+Two?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Great+Vibes?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Parisienne?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Comforter?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Dancing+Script?preview.text=Garage&preview.text_type=custom
+
+- https://fonts.google.com/specimen/Neonderthaw?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Imperial+Script?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Gwendolyn?preview.text=Garage&preview.text_type=custom
+- https://fonts.google.com/specimen/Lily+Script+One?preview.text=Garage&preview.text_type=custom
+*/
+
 @font-face {
   font-family: "ferro_rossoregular";
   src: url("../webfonts/ferrorosso.woff2") format("woff2"),
@@ -6,6 +20,43 @@
   font-style: normal;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
 .brand {
+  font-size: 4rem;
+  margin-bottom: -2.5rem !important;
   font-family: "ferro_rossoregular" !important;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-bottom: 40px;
+}
+
+.brand:last-child {
+  margin-bottom: 1rem;
+}
+
+.learn-more {
+  margin-top: 3rem;
+  width: 20rem;
+  max-width: 30rem;
+  align-self: center;
+}
+
+.garage-font {
+  /* font-family: "Lobster Two", cursive !important; */
+  font-family: "Imperial Script", cursive !important;
+  /* font-family: "Lily Script One", cursive !important; */
+  color: rgb(206, 50, 50);
+  font-size: 5.5rem;
+  padding-right: 1rem;
 }
