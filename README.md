@@ -1,2 +1,2 @@
-# test-auto-detail-website
-Test repo for custom website.
+# auto-detail-website
+Website created for a client who wanted an auto detailing website.
